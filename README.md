@@ -22,8 +22,7 @@ STEP 13: Set up the ftp over the TCP connection.
 STEP 14: Set the UDP and TCP connection for the source and destination. STEP 15: Create the traffic generator CBR for the source and destination files. STEP 16: Define the plot window and finish procedure.
 STEP 17: In the definition of the finish procedure declare the global variables. STEP 18: Close the trace file and namefile and execute the network animation file. STEP 19: At the particular time call the finish procedure.
 STEP 20: Stop the program.
-```
- 
+ ```
 # PROGRAM
 ```
 #Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
@@ -81,14 +80,13 @@ $nsat 7.0 "$ftp stop"
 $ns at 7.5 "$cbr stop"
 $ns at 8.0 "finish"
 $ns run
-```
- 
+ ```
 # OUTPUT
-![WhatsApp Image 2025-11-21 at 10 12 00 AM](https://github.com/user-attachments/assets/e5881bef-0448-4f88-b826-d64442aa379e)
+![WhatsApp Image 2025-09-12 at 4 33 09 PM](https://github.com/user-attachments/assets/4c3fe241-ee19-4a5a-9f17-512b7da4360c)
 
 
 
----
+
 
 # RESULT
 
